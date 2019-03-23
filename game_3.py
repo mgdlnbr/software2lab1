@@ -50,6 +50,6 @@ while (i <= 10):
     #Check Acker Bewirtschaftet
     if n_nextCrop >= 0:
         n_land = int(n_land_input + (n_people_input * n_health)/10)
-        n_Crop = n_Crop* n_yield
+        n_crop = n_crop* n_yield
 
     i += 1
