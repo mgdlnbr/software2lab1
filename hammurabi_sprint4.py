@@ -245,3 +245,29 @@ def set_input_endgame(xx,people):
 
     i = xx
     n_people = people
+    
+    
+randomize_land()
+randomize_yield()
+set_plague()
+set_rats()
+start_game()
+
+
+for i in range(1,10):
+    print_stats()
+    ask_inputs_people()
+    ask_land_cultivate()
+    ask_land_input()
+    check_crop()
+    check_too_many_died()
+    end_of_game()
+    calculate_crop()
+    check_health()
+    check_starved()
+    check_land_yield()
+    check_land_is_cultivated()
+    calculate_land()
+    plague()
+    rats()
+    i+=1
